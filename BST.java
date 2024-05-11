@@ -152,9 +152,7 @@ public class BST<K extends Comparable<K>, V> implements Iterable<BST.Entry<K, V>
         bst.put(3, "Three");
         bst.put(7, "Seven");
         bst.put(2, "Two");
-        bst.put(4, "Four");
-        bst.put(6, "Six");
-        bst.put(8, "Eight");
+    
 
         System.out.println("Size: " + bst.size());
 
